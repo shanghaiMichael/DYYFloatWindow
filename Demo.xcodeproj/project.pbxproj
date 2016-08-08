@@ -15,13 +15,13 @@
 		6080C9D51D585C62001DDE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6080C9D31D585C62001DDE4F /* LaunchScreen.storyboard */; };
 		6080C9E01D585C62001DDE4F /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080C9DF1D585C62001DDE4F /* DemoTests.m */; };
 		6080C9EB1D585C62001DDE4F /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080C9EA1D585C62001DDE4F /* DemoUITests.m */; };
-		6080C9FE1D585E56001DDE4F /* DYYFloatWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080C9FD1D585E56001DDE4F /* DYYFloatWindow.m */; };
 		6080CA051D586128001DDE4F /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6080CA001D586128001DDE4F /* a.jpg */; };
 		6080CA061D586128001DDE4F /* ccc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6080CA011D586128001DDE4F /* ccc.png */; };
 		6080CA071D586128001DDE4F /* ddd.png in Resources */ = {isa = PBXBuildFile; fileRef = 6080CA021D586128001DDE4F /* ddd.png */; };
 		6080CA081D586128001DDE4F /* eee.png in Resources */ = {isa = PBXBuildFile; fileRef = 6080CA031D586128001DDE4F /* eee.png */; };
 		6080CA091D586128001DDE4F /* fff.png in Resources */ = {isa = PBXBuildFile; fileRef = 6080CA041D586128001DDE4F /* fff.png */; };
 		6080CA0B1D5865EE001DDE4F /* z.png in Resources */ = {isa = PBXBuildFile; fileRef = 6080CA0A1D5865EE001DDE4F /* z.png */; };
+		6080CA0E1D587AC4001DDE4F /* DYYFloatWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080CA0D1D587AC4001DDE4F /* DYYFloatWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,14 +58,14 @@
 		6080C9E61D585C62001DDE4F /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6080C9EA1D585C62001DDE4F /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		6080C9EC1D585C62001DDE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6080C9FC1D585E56001DDE4F /* DYYFloatWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYYFloatWindow.h; sourceTree = "<group>"; };
-		6080C9FD1D585E56001DDE4F /* DYYFloatWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYYFloatWindow.m; sourceTree = "<group>"; };
 		6080CA001D586128001DDE4F /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
 		6080CA011D586128001DDE4F /* ccc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccc.png; sourceTree = "<group>"; };
 		6080CA021D586128001DDE4F /* ddd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ddd.png; sourceTree = "<group>"; };
 		6080CA031D586128001DDE4F /* eee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eee.png; sourceTree = "<group>"; };
 		6080CA041D586128001DDE4F /* fff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fff.png; sourceTree = "<group>"; };
 		6080CA0A1D5865EE001DDE4F /* z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z.png; sourceTree = "<group>"; };
+		6080CA0C1D587AC4001DDE4F /* DYYFloatWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYYFloatWindow.h; path = Classes/DYYFloatWindow.h; sourceTree = "<group>"; };
+		6080CA0D1D587AC4001DDE4F /* DYYFloatWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYYFloatWindow.m; path = Classes/DYYFloatWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				6080C9FF1D586128001DDE4F /* resource */,
-				6080C9FB1D585DF3001DDE4F /* Vendor */,
+				6080C9FB1D585DF3001DDE4F /* Classes */,
 				6080C9C81D585C62001DDE4F /* AppDelegate.h */,
 				6080C9C91D585C62001DDE4F /* AppDelegate.m */,
 				6080C9CB1D585C62001DDE4F /* ViewController.h */,
@@ -157,13 +157,13 @@
 			path = DemoUITests;
 			sourceTree = "<group>";
 		};
-		6080C9FB1D585DF3001DDE4F /* Vendor */ = {
+		6080C9FB1D585DF3001DDE4F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6080C9FC1D585E56001DDE4F /* DYYFloatWindow.h */,
-				6080C9FD1D585E56001DDE4F /* DYYFloatWindow.m */,
+				6080CA0C1D587AC4001DDE4F /* DYYFloatWindow.h */,
+				6080CA0D1D587AC4001DDE4F /* DYYFloatWindow.m */,
 			);
-			name = Vendor;
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		6080C9FF1D586128001DDE4F /* resource */ = {
@@ -318,7 +318,7 @@
 				6080C9CD1D585C62001DDE4F /* ViewController.m in Sources */,
 				6080C9CA1D585C62001DDE4F /* AppDelegate.m in Sources */,
 				6080C9C71D585C62001DDE4F /* main.m in Sources */,
-				6080C9FE1D585E56001DDE4F /* DYYFloatWindow.m in Sources */,
+				6080CA0E1D587AC4001DDE4F /* DYYFloatWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +544,7 @@
 				6080C9F11D585C62001DDE4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6080C9F21D585C62001DDE4F /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +553,7 @@
 				6080C9F41D585C62001DDE4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6080C9F51D585C62001DDE4F /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +562,7 @@
 				6080C9F71D585C62001DDE4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
