@@ -21,7 +21,7 @@
 		6080CA081D586128001DDE4F /* eee.png in Resources */ = {isa = PBXBuildFile; fileRef = 6080CA031D586128001DDE4F /* eee.png */; };
 		6080CA091D586128001DDE4F /* fff.png in Resources */ = {isa = PBXBuildFile; fileRef = 6080CA041D586128001DDE4F /* fff.png */; };
 		6080CA0B1D5865EE001DDE4F /* z.png in Resources */ = {isa = PBXBuildFile; fileRef = 6080CA0A1D5865EE001DDE4F /* z.png */; };
-		6080CA0E1D587AC4001DDE4F /* DYYFloatWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080CA0D1D587AC4001DDE4F /* DYYFloatWindow.m */; };
+		6080CA111D587BC3001DDE4F /* DYYFloatWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080CA101D587BC3001DDE4F /* DYYFloatWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +64,8 @@
 		6080CA031D586128001DDE4F /* eee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eee.png; sourceTree = "<group>"; };
 		6080CA041D586128001DDE4F /* fff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fff.png; sourceTree = "<group>"; };
 		6080CA0A1D5865EE001DDE4F /* z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z.png; sourceTree = "<group>"; };
-		6080CA0C1D587AC4001DDE4F /* DYYFloatWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYYFloatWindow.h; path = Classes/DYYFloatWindow.h; sourceTree = "<group>"; };
-		6080CA0D1D587AC4001DDE4F /* DYYFloatWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYYFloatWindow.m; path = Classes/DYYFloatWindow.m; sourceTree = "<group>"; };
+		6080CA0F1D587BC3001DDE4F /* DYYFloatWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYYFloatWindow.h; path = Classes/DYYFloatWindow.h; sourceTree = SOURCE_ROOT; };
+		6080CA101D587BC3001DDE4F /* DYYFloatWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYYFloatWindow.m; path = Classes/DYYFloatWindow.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,8 +160,8 @@
 		6080C9FB1D585DF3001DDE4F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6080CA0C1D587AC4001DDE4F /* DYYFloatWindow.h */,
-				6080CA0D1D587AC4001DDE4F /* DYYFloatWindow.m */,
+				6080CA0F1D587BC3001DDE4F /* DYYFloatWindow.h */,
+				6080CA101D587BC3001DDE4F /* DYYFloatWindow.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -318,7 +318,7 @@
 				6080C9CD1D585C62001DDE4F /* ViewController.m in Sources */,
 				6080C9CA1D585C62001DDE4F /* AppDelegate.m in Sources */,
 				6080C9C71D585C62001DDE4F /* main.m in Sources */,
-				6080CA0E1D587AC4001DDE4F /* DYYFloatWindow.m in Sources */,
+				6080CA111D587BC3001DDE4F /* DYYFloatWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
