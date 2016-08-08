@@ -7,7 +7,7 @@ This is a Float Window in iOS
 <img src="./demo.gif" align="middle" width="620" />
 
 ####Get Start
-	copy "DYYFloatWindow.h" and "DYYFloatWindow" to your project
+	copy "DYYFloatWindow/"to your project
 
 ####Using it
 For using DYYFloatWindow, it's very simple:
