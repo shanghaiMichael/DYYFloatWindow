@@ -7,7 +7,9 @@ This is a Float Window in iOS
 <img src="./demo.gif" align="middle" width="620" />
 
 ####Get Start
-	copy "DYYFloatWindow/"to your project
+Using [CocoaPods] to get start, you can add following line to your Podfile:
+
+	pod 'DYYFloatWindow'
 
 ####Using it
 For using DYYFloatWindow, it's very simple:
